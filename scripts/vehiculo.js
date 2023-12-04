@@ -1,3 +1,5 @@
+import { mostrarResultado } from "./main.js";
+
 export class Vehiculo{
     #marca;
     #modelo;
@@ -20,12 +22,25 @@ export class Vehiculo{
             ${this.#color},
             ${this.#anioFabr},
             ${this.#cilindrada}.`
+
+        mostrarResultado(`<p>${datos}</p>`)
     }
 
 
-    acelerar(){}
-    arrancar(){}
-    frenar(){}
+    acelerar(velocidad){
+        const mensaje = `El vehiculo ha acelerado hasta ${velocidad}.`
+        mostrarResultado(`<p>${mensaje}</p>`)
+    }
+
+    arrancar(){
+        const mensaje = `El vehiculo ha arrancado.`
+        mostrarResultado(`<p>${mensaje}</p>`)
+    }
+
+    frenar(){
+        const mensaje = `El vehiculo ha parado.`
+        mostrarResultado(`<p>${mensaje}</p>`)
+    }
 
 
 
