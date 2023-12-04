@@ -22,22 +22,18 @@ div{
     background: linear-gradient(black, rgb(99, 61, 0));
 }
 
-a{
-    text-decoration: none;
-    font-family: YoungSerif;
-    color: white;
-}
-
-a:hover{
-    cursor: pointer;
-}
-
 h2{
     text-align: center;
     background-color: black;
     width: fit-content;
     margin: 0 auto;
     padding: 1.4rem;
+    color: white;
+    font-family: YoungSerif;
+}
+
+h2::first-letter{
+    color: orange;
 }
 
 h1{

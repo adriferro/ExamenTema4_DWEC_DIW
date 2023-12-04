@@ -14,9 +14,6 @@ export class AutomovilDeportivo extends Vehiculo{
         mostrarResultado(`<p>${mensaje}</p>`)
     }
 
-    mostrarDatos(){
-    }
-
     get potencia(){
         return this.#potencia;
     }

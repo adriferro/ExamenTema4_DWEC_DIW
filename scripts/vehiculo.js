@@ -24,17 +24,17 @@ export class Vehiculo{
 
 
     acelerar(velocidad){
-        const mensaje = `El vehiculo ha acelerado hasta ${velocidad}.`
+        const mensaje = `El vehiculo ${this.#marca} de ${this.#cilindrada}cc ha acelerado hasta ${velocidad}.`
         mostrarResultado(`<p>${mensaje}</p>`)
     }
 
     arrancar(){
-        const mensaje = `El vehiculo ha arrancado.`
+        const mensaje = `El vehiculo ${this.#marca} ${this.#modelo} de color ${this.#color} ha arrancado.`
         mostrarResultado(`<p>${mensaje}</p>`)
     }
 
     frenar(){
-        const mensaje = `El vehiculo ha parado.`
+        const mensaje = `El vehiculo ${this.#marca} ${this.#modelo} fabricado en ${this.#anioFabr} ha parado.`
         mostrarResultado(`<p>${mensaje}</p>`)
     }
 
