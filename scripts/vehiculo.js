@@ -18,7 +18,7 @@ export class Vehiculo{
     mostrarDatos(){
         const datos = `
             ${this.#marca}, ${this.#modelo}, ${this.#color}, ${this.#anioFabr}, ${this.#cilindrada}.`
-            
+
         mostrarResultado(`<p>${datos}</p>`)
     }
 
@@ -43,36 +43,36 @@ export class Vehiculo{
     get marca(){
         return this.#marca;
     }
-    set marca(marca){
-        this.#marca = marca;
+    set marca(value){
+        this.#marca = value;
     }
 
     get modelo(){
         return this.#modelo;
     }
-    set modelo(modelo){
-        this.#modelo = modelo;
+    set modelo(value){
+        this.#modelo = value;
     }
 
     get color(){
         return this.#color;
     }
-    set color(color){
-        this.#color = color;
+    set color(value){
+        this.#color = value;
     }
 
     get anioFabr(){
         return this.#anioFabr;
     }
-    set anioFabr(anioFabr){
-        this.#anioFabr = anioFabr;
+    set anioFabr(value){
+        this.#anioFabr = value;
     }
 
     get cilindrada(){
         return this.#cilindrada;
     }
-    set cilindrada(cilindrada){
-        this.#cilindrada = cilindrada;
+    set cilindrada(value){
+        this.#cilindrada = value;
     }
 
 }
