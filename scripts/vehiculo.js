@@ -17,12 +17,8 @@ export class Vehiculo{
 
     mostrarDatos(){
         const datos = `
-            ${this.#marca},
-            ${this.#modelo},
-            ${this.#color},
-            ${this.#anioFabr},
-            ${this.#cilindrada}.`
-
+            ${this.#marca}, ${this.#modelo}, ${this.#color}, ${this.#anioFabr}, ${this.#cilindrada}.`
+            
         mostrarResultado(`<p>${datos}</p>`)
     }
 
