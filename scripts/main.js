@@ -30,7 +30,7 @@ console.log(JSON.parse(localStorage.getItem("vehiculo")))
 
 
 const deportivo1 = new AutomovilDeportivo('Ferrari', 'Spider', 'amarillo', 2020, '4000', '500')
-mostrarResultado('<br/><br/>Deportivo 1:<hr/>')
+mostrarResultado('<br/><br/><br/>Deportivo 1:<hr/>')
 deportivo1.mostrarDatos()
 deportivo1.arrancar()
 deportivo1.acelerar(140)

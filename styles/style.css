@@ -1,22 +1,41 @@
-/*@font-face {
-    font-family: ;
-    src: url();
+@font-face {
+    font-family: YoungSerif;
+    src: url(/assets/fonts/Young_Serif/YoungSerif-Regular.ttf);
 }
 
 body{
-    background-image: url();
+    background-image: url(/assets/cocheFondo.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-}*/
+}
 
 p{
     color: white;
+    font-family: YoungSerif;
 }
 
-div{ 
-    background-color: black;
+div{
     text-align: center;
     width: fit-content;
     margin: 0 auto;
+    background: linear-gradient(black, rgb(99, 61, 0));
+}
+
+a{
+    text-decoration: none;
+    font-family: YoungSerif;
+    color: white;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+h2{
+    text-align: center;
+    background-color: black;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1.4rem;
 }
